@@ -1,3 +1,5 @@
+module SignalGenerator
+
 let generateSamples duration frequency =
     let sampleRate = 44100.
     let bitSampleLimit = 32767.
